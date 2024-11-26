@@ -20,7 +20,5 @@
       ]
     }
   },
-  "versions_url": "https://example.com/versions.json",
-    "min_poptracker_version": "0.23.1",
-    "target_poptracker_version": "0.23.1"
+  "versions_url": "https://example.com/versions.json"
 }
