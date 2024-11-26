@@ -1,0 +1,94 @@
+[
+    {
+        "name": "Cashino Token Pagies",
+        "access_rules": ["$CashinoDestination"],
+        "sections": [
+            {
+                "name": "Tokens 1",
+                "access_rules": ["$token_pagie_1_logic"]
+            },
+            {
+                "name": "Tokens 2",
+                "access_rules": ["$token_pagie_2_logic"]
+            },
+            {
+                "name": "Tokens 3",
+                "access_rules": ["$token_pagie_3_logic"]
+            },
+            {
+                "name": "Tokens 4",
+                "access_rules": ["$token_pagie_4_logic"]
+            },
+            {
+                "name": "Tokens 5",
+                "access_rules": ["$token_pagie_5_logic"]
+            },
+            {
+                "name": "Tokens 6",
+                "access_rules": ["$token_pagie_6_logic"]
+            },
+            {
+                "name": "Tokens 7",
+                "access_rules": ["$token_pagie_7_logic"]
+            },
+            {
+                "name": "Tokens 8",
+                "access_rules": ["$token_pagie_8_logic"]
+            },
+            {
+                "name": "Tokens 9",
+                "access_rules": ["$token_pagie_9_logic"]
+            },
+            {
+                "name": "Tokens 10",
+                "access_rules": ["$token_pagie_10_logic"]
+            },
+            {
+                "name": "Tokens 11",
+                "access_rules": ["$token_pagie_11_logic"]
+            },
+            {
+                "name": "Tokens 12",
+                "access_rules": ["$token_pagie_12_logic"]
+            },
+            {
+                "name": "Tokens 13",
+                "access_rules": ["$token_pagie_14_logic"]
+            },
+            {
+                "name": "Tokens 14",
+                "access_rules": ["$token_pagie_15_logic"]
+            },
+            {
+                "name": "Tokens 15",
+                "access_rules": ["$token_pagie_15_logic"]
+            },
+            {
+                "name": "Tokens 16",
+                "access_rules": ["$token_pagie_16_logic"]
+            },
+            {
+                "name": "Tokens 17",
+                "access_rules": ["$token_pagie_17_logic"]
+            },
+            {
+                "name": "Tokens 18",
+                "access_rules": ["$token_pagie_18_logic"]
+            },
+            {
+                "name": "Tokens 19",
+                "access_rules": ["$token_pagie_19_logic"]
+            }
+
+
+        ],
+        "map_locations": [
+            {
+                "map": "Capital Cashino 1",
+                "x": 370,
+                "y": 150
+            }
+        ]
+    }
+]
+

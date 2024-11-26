@@ -1,0 +1,78 @@
+[
+    {
+        "name": "Shipwreck Creek",
+        "access_rules": [],
+        "children": [
+          {
+            "name": "Help Blastro",
+            "sections": [
+              {
+                "name": "Help Blastro Pagie",
+                "access_rules": ["buddy_slam"]
+
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Shipwreck Creek",
+                "x": 700,
+                "y": 90
+              }
+
+
+            ]
+          },
+          {
+            "name": "The Wrecked Crow's Nest",
+            "sections":[
+              {
+                "name": "The Wrecked Crow's Nest Pagie",
+                "access_rules": ["pagie:1, flappy_flight","pagie:1, reptile_roll"]
+              }
+            ],
+            "map_locations":[
+              {
+                "map":"Shipwreck Creek",
+                "x": 650,
+                "y": 405
+              }
+            ]
+          },
+          {
+          "name": "Trowzer's Shop",
+          "sections":[
+            {
+              "name": "Trowzer's Tail Twirl",
+              "access_rules": []
+            }
+          ],
+          "map_locations":[
+            {
+              "map":"Shipwreck Creek",
+              "x": 175,
+              "y": 210
+            }
+          ]
+          },
+          {
+            "name": "Health Booster",
+            "sections":[
+              {
+                "name": "Shipwreck Creek Health Booster",
+                "access_rules": ["$damaging_ability", "flappy_flight"]
+              }
+            ],
+            "map_locations":[
+              {
+                "map":"Shipwreck Creek",
+                "x": 35,
+                "y":340
+              }
+            ]
+
+            
+          }
+        ]
+
+      }
+]

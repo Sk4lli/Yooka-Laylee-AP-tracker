@@ -1,0 +1,361 @@
+[
+     {
+                "name": "Glitterglaze Glacier",
+                "access_rules": ["$GlacierDestination"],
+                "children": [
+                    {
+                        "name": "Glacier Energy Booster",
+                        "sections": [
+                            {
+                                "name": "Glacier Energy Booster",
+                                "access_rules": ["$glacier_energy"]
+                            }
+                            
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Glitterglaze Glacier",
+                                "x": 579,
+                                "y": 680
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Collectables",
+                        "sections": [
+                            {
+                                "name": "Glitterglaze Ghostwriter Pagie",
+                                "access_rules": ["$glacier_ghosts"]
+                            },
+                            {
+                                "name": "Glitterglaze Quills Pagie",
+                                "access_rules": ["$glacier_quills"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Glitterglaze Glacier",
+                                "x": 579,
+                                "y": 700
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Glacier Mollycool",
+                        "sections": [
+                            {
+                                "name": "Glacier Mollycool",
+                                "access_rules": ["$glacier_mollycool"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Glitterglaze Glacier",
+                                "x": 1000,
+                                "y": 334
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Glitterglaze Kartos Challenge",
+                        "sections": [
+                            {
+                                "name": "Glitterglaze Kartos Challenge Pagie",
+                                "access_rules": ["$glacier_entrance"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Glitterglaze Glacier",
+                                "x": 321,
+                                "y": 257
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Frozen Path Torches",
+                        "sections": [
+                            {
+                                "name": "Frozen Path Torches Pagie",
+                                "access_rules": ["$glacier_entrance, slurp_state"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Glitterglaze Glacier",
+                                "x": 379,
+                                "y": 490
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Find the Snowmen's Clothing",
+                        "sections": [
+                            {
+                                "name": "Find the Snowmen's Clothing Pagie",
+                                "access_rules": ["$glacier_entrance, slurp_state, glacier_mollycool"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Glitterglaze Glacier",
+                                "x": 918,
+                                "y": 300
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Glitterglaze Glide Hoop Challenge",
+                        "sections": [
+                            {
+                                "name": "Glitterglaze Glide Hoop Challenge Pagie",
+                                "access_rules": [
+                                  "glide, buddyslam",
+                                  "buddy_slam, flappy_flight"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Glitterglaze Glacier",
+                                "x": 650,
+                                "y": 495
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Crystalline Cave Ice Puzzle",
+                        "sections": [
+                            {
+                                "name": "Crystalline Cave Ice Puzzle Pagie",
+                                "access_rules": ["$glacier_entrance, sonar_shot"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Glitterglaze Glacier",
+                                "x": 625,
+                                "y": 506
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sculpt the Capital B Ice Sculpture",
+                        "sections": [
+                            {
+                                "name": "Sculpt the Capital B Ice Sculpture Pagie",
+                                "access_rules": [
+                                    "reptile_roll, glide, slurp_shot",
+                                    "flappy_flight, slurp_shot"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Glitterglaze Glacier",
+                                "x": 815,
+                                "y": 301
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Glitterglaze Flying Hoop Challenge",
+                        "sections": [
+                            {
+                                "name": "Glitterglaze Flying Hoop Challenge Pagie",
+                                "access_rules": [
+                                    "buddy_slam, flappy_flight"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Glitterglaze Glacier",
+                                "x": 373,
+                                "y": 362
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Traverse through Gloomy Gem Grotto",
+                        "sections": [
+                            {
+                                "name": "Traverse through Gloomy Gem Grotto Pagie",
+                                "access_rules": ["$gloomy_gem"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Glitterglaze Glacier",
+                                "x": 760,
+                                "y": 464
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Jump over Dice Symbols Platform",
+                        "sections": [
+                            {
+                                "name": "Jump over Dice Symbols Platform Pagie",
+                                "access_rules": [
+                                    "reptile_roll, glide",
+                                    "flappy_flight"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Glitterglaze Glacier",
+                                "x": 683,
+                                "y": 185
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rescue Potty Mouth",
+                        "sections": [
+                            {
+                                "name": "Rescue Potty Mouth Pagie",
+                                "access_rules": ["$glacier_entrance, buddy_slam"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Glitterglaze Glacier",
+                                "x": 149,
+                                "y": 346
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pentagonal Peak",
+                        "sections": [
+                            {
+                                "name": "Pentagonal Peak Pagie",
+                                "access_rules": [
+                                    "flappy_flight, buddy_slam",
+                                    "lizard_leap, buddy_slam, slurp_state"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Glitterglaze Glacier",
+                                "x": 300,
+                                "y": 230
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Trowzer's Shop",
+                        "sections": [
+                            {
+                                "name": "Trowzer's Lizard Leap",
+                                "access_rules": []
+                            },
+                            {
+                                "name": "Trowzer's Slurp State",
+                                "access_rules": []
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map":"Glitterglaze Glacier",
+                                "x": 605,
+                                "y": 461
+                            }
+                        ]
+                        
+                    },
+                    {
+                        "name": "Expanded Glacier",
+                        "access_rules": "$ExpandedGlacierDestination",
+                        "children": [
+                            {
+                                "name": "Icymetric Palace Lower",
+                                "sections": [
+                                    {
+                                        "name": "Assist Tubbz Pagie",
+                                        "access_rules": ["$icymetric_help_tubbz"]
+                                    },
+                                    {
+                                        "name": "Icymetric Palace - Sonar Shot the Statues Pagie",
+                                        "access_rules": ["$icymetric_sonar_statues"]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Glitterglaze Glacier",
+                                        "x": 520,
+                                        "y": 417
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Icymetric Palace Upper",
+                                "sections": [
+                                    {
+                                        "name": "Rextro's Arcade (Rextro's Glaciators) Pagie",
+                                        "access_rules": ["$glacier_rextro_pagies"]
+                                    },
+                                    {
+                                        "name": "Rextro's Hi-Score (Rextro's Glaciators) Pagie",
+                                        "access_rules": ["$glacier_rextro_pagies"]
+                                    },
+                                    {
+                                        "name": "Glacier Play Coin",
+                                        "access_rules": ["$icymetric_play_coin"]
+                                    },
+                                    
+                                    {
+                                        "name": "Glacier Health Booster",
+                                        "access_rules": ["$icymetric_health_booster"]
+                                    },
+                                    {
+                                        "name": "Icymetric Palace - Frozen Pagie",
+                                        "access_rules": ["$icymetric_frozen_pagie"]
+                                    },
+                                    {
+                                        "name": "Icymetric Palace - Brreeeze Blok Pagie",
+                                        "access_rules": ["$icymetric_brreeze_block"]
+                                    },
+                                    {
+                                        "name": "Icymetric Palace - Pipes Pagie",
+                                        "access_rules": ["$icymetric_pipes"]
+                                    },
+                                    {
+                                        "name": "Icymetric Palace - Dark Room Quiz Pagie",
+                                        "access_rules": ["$icymetric_dark_room"]
+                                    },
+                                    {
+                                        "name": "Icymetric Palace - Camo Cloak Pagie",
+                                        "access_rules": ["$icymetric_camo_cloak"]
+                                    },
+                                    {
+                                        "name": "Icymetric Palace - Burnie's Room Pagie",
+                                        "access_rules": ["$icymetric_burnies_room"]
+                                    },
+                                    {
+                                        "name": "Icymetric Palace - Spike Wall Pagie",
+                                        "access_rules": ["$icymetric_spike_wall"]
+                                    },
+                                    {
+                                        "name": "Icymetric Palace - Acid Path Pagie",
+                                        "access_rules": ["$icymetric_acid_path"]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Glitterglaze Glacier",
+                                        "x": 511,
+                                        "y": 295
+                                    }
+                                ]
+                            }
+
+                        ]
+                    }
+                    
+                ]
+            }
+]

@@ -1,0 +1,302 @@
+{
+  "tracker_default": {
+    "type": "container",
+    "background": "#877373",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "left",
+          "h_alignment": "stretch",
+          "content": [
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "abilities"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Collectables",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "consumables"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Entrances",
+              "dock": "top",
+              "content": [
+                {
+                  "type": "layout",
+                  "key": "entrances_grid"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Hivory Towers",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Shipwreck Creek",
+                    "content": [
+                      {
+                        "type": "map",
+                        "maps": [
+                          "Shipwreck Creek"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Hivory Tower 1",
+                    "content": [
+                      {
+                        "type": "map",
+                        "maps": [
+                          "Hivory Towers Entrance"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Hivory Tower 2",
+                    "content": [
+                      {
+                        "type": "map",
+                        "maps": [
+                          "Hivory Towers Tropics Entry"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Hivory Tower 3",
+                    "content": [
+                      {
+                        "type": "map",
+                        "maps": [
+                          "Hivory Towers Glacier Entry"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Hivory Tower 4",
+                    "content": [
+                      {
+                        "type": "map",
+                        "maps": [
+                          "Hivory Towers Archive"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Hivory Tower 5",
+                    "content": [
+                      {
+                        "type": "map",
+                        "maps": [
+                          "Hivory Towers Waterworks"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Hivory Tower 6",
+                    "content": [
+                      {
+                        "type": "map",
+                        "maps": [
+                          "Hivory Towers Camo Cloak Trowzer"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Hivory Tower 7",
+                    "content": [
+                      {
+                        "type": "map",
+                        "maps": [
+                          "Hivory Towers Acid Tunnel"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Hivory Tower 8",
+                    "content": [
+                      {
+                        "type": "map",
+                        "maps": [
+                          "Hivory Towers Top Outside (NoFlight)"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Hivory Tower 9",
+                    "content": [
+                      {
+                        "type": "map",
+                        "maps": [
+                          "Hivory Towers Galleon Entry"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Tribalstack Tropics",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Tribalstack Tropics"
+                ]
+              }
+            },
+            {
+              "title": "Glitterglaze Glacier",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Glitterglaze Glacier"
+                ]
+              }
+            },
+            {
+              "title": "Moodymaze Marsh",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Moodymaze Marsh 1",
+                    "content": [
+                      {
+                        "type": "map",
+                        "maps": [
+                          "Moodymaze Marsh 1"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Moodymaze Marsh 2",
+                    "content": [
+                      {
+                        "type": "map",
+                        "maps": [
+                          "Moodymaze Marsh 2"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Capital Cashino",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Capital Cashino 1",
+                    "content": [
+                      {
+                        "type": "map",
+                        "maps": [
+                          "Capital Cashino 1"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Capital Cashino 2",
+                    "content": [
+                      {
+                        "type": "map",
+                        "maps": [
+                          "Capital Cashino 2"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Capital Cashino 3",
+                    "content": [
+                      {
+                        "type": "map",
+                        "maps": [
+                          "Capital Cashino 3"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Capital Cashino 4",
+                    "content": [
+                      {
+                        "type": "map",
+                        "maps": [
+                          "Capital Cashino 4"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Capital Cashino 5",
+                    "content": [
+                      {
+                        "type": "map",
+                        "maps": [
+                          "Capital Cashino 5"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Capital Cashino 6",
+                    "content": [
+                      {
+                        "type": "map",
+                        "maps": [
+                          "Capital Cashino 6"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Galleon Galaxy",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Galleon Galaxy"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

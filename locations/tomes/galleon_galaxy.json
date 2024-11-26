@@ -1,0 +1,471 @@
+[
+    {
+        "name": "Galleon Galaxy",
+        "access_rules": ["$GalleonDestination"],
+        "children": [
+            {
+                "name":"Galleon Entry",
+                "access_rules": ["$galaxy_entrance"],
+                "children": [
+                    {
+                        "name": "The Lighthouse",
+                        "sections": [
+                            {
+                                "name":"The Lighthouse Pagie",
+                                "access_rules": [
+                                    "flappy_flight, buddy_slam"
+                                ]
+                            },
+                            {
+                                "name": "Galaxy Mollycool",
+                                "access_rules": ["flappy_flight"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Galleon Galaxy",
+                                "x": 407,
+                                "y": 615
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Trowzer's Shop",
+                        "access_rules": [],
+                        "sections": [
+                            {
+                                "name": "Trowzer's Sonar Shield",
+                                "access_rules": []
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Galleon Galaxy",
+                                "x": 376,
+                                "y": 644
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Galaxy Play Coin",
+                        "sections": [
+                            {
+                                "name": "Galaxy Play Coin",
+                                "access_rules": ["flappy_flight"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Galleon Galaxy",
+                                "x": 205,
+                                "y": 205
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Lunar Lockup",
+                        "sections": [
+                            {
+                                "name": "Lunar Lockup Pagie",
+                                "access_rules": [
+                                    "$reptile_rush, slurp_shot, slurp_state, buddy_slam"
+                                ]
+                            }
+                        ],
+                            "map_locations": [
+                                {
+                                    "map": "Galleon Galaxy",
+                                    "x": 364,
+                                    "y": 600
+                                }
+                            ]
+                    },
+                    {
+                        "name": "Cosmic Cavern",
+                        "sections": [
+                            {
+                                "name": "Cosmic Cavern Laser Challenge Pagie",
+                                "access_rules": [
+                                    "slurp_shot, $reptile_rush, $sonar_shield",
+                                    "flappy_flight, buddy_slam, galaxy_mollycool, $sonar_shield"
+                                ]
+                            },
+                            {
+                                "name": "Galaxy Energy Booster",
+                                "access_rules": [
+                                    "$sonar_shield, $reptile_rush, slurp_shot",
+                                    "flappy_flight, buddy_slam, galaxy_mollycool, $sonar_shield"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Galleon Galaxy",
+                                "x": 450,
+                                "y": 607
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Expanded Galaxy",
+                        "access_rules": ["$ExpandedGalleonDestination"],
+                        "children": [
+                            {
+                                "name": "Collectables",
+                                "sections": [
+                                    {
+                                        "name": "Galaxy Ghosts Pagie",
+                                        "access_rules": ["$galleon_ghosts"]
+                                    },
+                                    {
+                                        "name": "Galaxy Quills Pagie",
+                                        "access_rules": ["$galleon_quills"]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Galleon Galaxy",
+                                        "x": 181,
+                                        "y": 834
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Rextro's Arcade",
+                                "sections": [
+                                    {
+                                        "name": "Rextro's Arcade (UpNova) Pagie",
+                                        "access_rules": [
+                                            "flappy_flight, galaxy_play_coin"
+                                        ]
+                                    },
+                                    {
+                                        "name": "Rextro's Hi-Score (UpNova) Pagie",
+                                        "access_rules": [
+                                            "flappy_flight, galaxy_play_coin"
+                                        ]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Galleon Galaxy",
+                                        "x": 283,
+                                        "y": 260
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Galaxy Kartos Challenge",
+                                "sections": [
+                                    {
+                                        "name": "Galaxy Kartos Challenge Pagie",
+                                        "access_rules": ["flappy_flight"]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Galleon Galaxy",
+                                        "x": 790,
+                                        "y": 568
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Defeat Planette",
+                                "sections": [
+                                    {
+                                        "name": "Defeat Planette Pagie",
+                                        "access_rules": [
+                                            "flappy_flight, buddy_slam, galaxy_mollycool"
+                                        ]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Galleon Galaxy",
+                                        "x": 673,
+                                        "y": 324
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "The Space Rig",
+                                "sections": [
+                                    {
+                                        "name": "The Space Rig Pagie",
+                                        "access_rules": [
+                                            "flappy_flight, buddy_slam, galaxy_mollycool"
+                                        ]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Galleon Galaxy",
+                                        "x": 160,
+                                        "y": 491
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Pressure Dome",
+                                "sections": [
+                                    {
+                                        "name": "Pressure Dome Swimming Challenge Pagie",
+                                        "access_rules": [
+                                            "flappy_flight, buddy_slam"
+                                        ]
+                                    },
+                                    {
+                                        "name": "Pressure Dome Security Gauntlet Pagie",
+                                        "access_rules": [
+                                            "flappy_flight, buddy_slam, camo_cloak, sonar_splosion, galaxy_mollycool"
+                                    ]
+                                    },
+                                    {
+                                        "name": "Galaxy Health Booster",
+                                        "access_rules": [
+                                            "flappy_flight, buddy_slam"
+                                        ]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Galleon Galaxy",
+                                        "x": 481,
+                                        "y": 280
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Complete Schell's Mission",
+                                "sections": [
+                                    {
+                                        "name":"Complete Schell's Mission Pagie",
+                                        "access_rules": [
+                                            "flappy_flight, $reptile_rush, $sonar_shield"
+                                        ]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Galleon Galaxy",
+                                        "x": 734,
+                                        "y": 634
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Space Plumbing",
+                                "sections": [
+                                    {
+                                        "name":"Space Plumbing Pagie",
+                                        "access_rules": [
+                                            "$sonar_shield, buddy_slam"
+                                        ]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Galleon Galaxy",
+                                        "x": 1020,
+                                        "y": 323
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Velocity Terminal",
+                                "sections": [
+                                    {
+                                        "name": "Velocity Terminal Pagie",
+                                        "access_rules": [
+                                            "flappy_flight, buddy_slam"
+                                        ]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Galleon Galaxy",
+                                        "x": 392,
+                                        "y": 56
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Spacecog Station",
+                                "sections": [
+                                    {
+                                        "name": "Spacecog Station Pagie",
+                                        "access_rules": ["flappy_flight"]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Galleon Galaxy",
+                                        "x": 863,
+                                        "y": 253
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Black Hole in One",
+                                "sections": [
+                                    {
+                                        "name": "Black Hole in One Pagie",
+                                        "access_rules": [
+                                            "flappy_flight, sonar_shot",
+                                            "flappy_flight, sonar_splosion",
+                                            "buddy_slam, sonar_shot",
+                                            "buddy_slam, sonar_splosion"
+                                        ]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Galleon Galaxy",
+                                        "x": 580,
+                                        "y": 738
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Turn on the Captain's Lamp",
+                                "sections": [
+                                    {
+                                        "name": "Turn on the Captain's Lamp Pagie",
+                                        "access_rules": ["slurp_shot"]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Galleon Galaxy",
+                                        "x": 575,
+                                        "y": 464
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Melt Rusto's Ice Cube",
+                                "sections": [
+                                    {
+                                        "name": "Melt Rusto's Ice Cube Pagie",
+                                        "access_rules": ["flappy_flight, slurp_state"]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Galleon Galaxy",
+                                        "x": 763,
+                                        "y": 568
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Test of Strength Switch",
+                                "sections": [
+                                    {
+                                        "name": "Test of Strength Switch Pagie",
+                                        "access_rules": [
+                                            "flappy_flight, slurp_state, buddy_slam",
+                                            "lizard_leap, slurp_state, buddy_slam"
+                                        ]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Galleon Galaxy",
+                                        "x": 508,
+                                        "y": 616
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Galaxy Knights Key",
+                                "sections": [
+                                    {
+                                        "name": "Galaxy Knights Key Pagie",
+                                        "access_rules": ["$galleon_knights"]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Galleon Galaxy",
+                                        "x": 209,
+                                        "y": 241
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Star Fishing",
+                                "sections": [
+                                    {
+                                        "name": "Star Fishing Minigame Pagie",
+                                        "access_rules": []
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Galleon Galaxy",
+                                        "x": 763,
+                                        "y": 490
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Galaxy Pagie Piece",
+                                "sections": [
+                                    {
+                                        "name": "Galaxy Pagie Piece",
+                                        "access_rules": [
+                                            "sonar_shot, flappy_flight, buddy_slam, galaxy_mollycool",
+                                            "sonar_splosion, flappy_flight, buddy_slam, galaxy_mollycool"
+                                        ]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Galleon Galaxy",
+                                        "x": 328,
+                                        "y": 468
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Energy Ball Switch",
+                                "sections": [
+                                    {
+                                        "name": "Energy Ball Switch Pagie",
+                                        "access_rules": ["flappy_flight, $sonar_shield"]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Galleon Galaxy",
+                                        "x": 893,
+                                        "y": 321
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Galaxy Nimble Race",
+                                "sections": [
+                                    {
+                                        "name": "Galaxy Nimble Race Pagie",
+                                        "access_rules": ["flappy_flight, buddy_slam, galaxy_mollycool"]
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "Galleon Galaxy",
+                                        "x": 416,
+                                        "y": 684
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+            
+                ]
+            }
+    	]
+    }
+]

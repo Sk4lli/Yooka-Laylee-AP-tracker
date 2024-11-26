@@ -1,0 +1,168 @@
+[
+    {
+      "name": "Capital Cashino",
+      "access_rules": ["$CashinoDestination"],
+      "children": [
+        {
+            "name": "Cashino Entry",
+            "access_rules": ["$cashino_entrance"],
+            "children": [
+                {
+                    "name": "Cashino Kartos",
+                    "access_rules": ["$roulette_passage"],
+                    "sections": [
+                        {
+                            "name": "Cashino Kartos Challenge Pagie",
+                            "access_rules": []
+                        },
+                        {
+                            "name": "I.N.E.P.T Boss Battle Pagie",
+                            "access_rules": []
+                        }
+                    ],
+                        "map_locations": [
+                            {
+                                "map": "Capital Cashino 3",
+                                "x": 751,
+                                "y": 245
+                            }
+                        ]
+                },
+                {
+                    "name": "Cashino Rextro's Arcade",
+                    "access_rules": ["cashino_play_coin"],
+                    "sections": [
+                        {
+                            "name": "Rextro's Arcade (Hurdle Hijinx) Pagie",
+                            "access_rules": []
+                        },
+                        {
+                            "name": "Rextro's Hi-Score (Hurdle Hijinx) Pagie",
+                            "access_rules": []
+                        }
+                    ],
+                        "map_locations": [
+                            {
+                                "map": "Capital Cashino 2",
+                                "x": 650,
+                                "y": 325
+                            }
+                        ]
+                },
+                {
+                    "name": "Cashino Mollycool",
+                    "access_rules": [],
+                    "sections": [
+                        {
+                            "name": "Cashino Mollycool",
+                            "access_rules": ["lizard_lash, buddy_slam"]
+                        }
+                    ],
+                    "map_locations": [
+                        {
+                            "map": "Capital Cashino 5",
+                            "x": 384,
+                            "y": 418
+                        }
+                    ]
+                },
+                {
+                    "name": "Cashino Energy Booster",
+                    "access_rules": [],
+                    "sections": [
+                        {
+                            "name": "Cashino Energy Booster",
+                            "access_rules": ["cashino_mollycool","flappy_flight"]
+                        }
+                    ],
+                    "map_locations": [
+                        {
+                            "map": "Capital Cashino 4",
+                            "x": 606,
+                            "y": 352
+                        }
+                    ]
+                },
+                {
+                    "name": "Cashino Health Booster",
+                    "access_rules": [],
+                    "sections": [
+                        {
+                            "name": "Cashino Health Booster",
+                            "access_rules": ["cashino_mollycool", "flappy_flight"]
+                        }
+                    ],
+                    "map_locations": [
+                        {
+                            "map": "Capital Cashino 4",
+                            "x": 414,
+                            "y": 188
+                        }
+                    ]
+                },
+                {
+                    "name": "Cashino Play Coin",
+                    "access_rules": [],
+                    "sections": [
+                        {
+                            "name": "Cashino Play Coin",
+                            "access_rules": ["lizard_lash, buddy_slam"]
+                        }
+                    ],
+                    "map_locations": [
+                        {
+                            "map": "Capital Cashino 2",
+                            "x": 143,
+                            "y": 436
+                        }
+                    ]
+                },
+                {
+                    "name": "Trowzer's Shop",
+                    "access_rules": [],
+                    "sections": [
+                        {
+                            "name": "Trowzer's Reptile Rush",
+                            "access_rules": []
+                        }
+                    ],
+                    "map_locations": [
+                        {
+                            "map": "Capital Cashino 6",
+                            "x": 280,
+                            "y": 247
+                        }
+                    ]
+                },
+                {
+                    "name": "Expanded Cashino",
+                    "access_rules": ["$ExpandedCashinoDestination"],
+                    "children": [
+                        {
+                
+                            "name": "Collectables",
+                            "sections": [
+                                {
+                                     "name": "Cashino Ghosts Pagie",
+                                     "access_rules": ["$cashino_ghosts"]
+                                },
+                                {
+                                    "name": "Cashino Quills Pagie",
+                                    "access_rules": ["$cashino_quills"]
+                                }
+                            ],
+                              "map_locations": [
+                                    {
+                                      "map": "Capital Cashino 1",
+                                      "x": 500,
+                                      "y": 670
+                                    }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+      ]
+    }
+]

@@ -1,0 +1,80 @@
+{
+  
+  "abilities": {
+    "type": "array",
+    "orientation": "horizontal",
+    "content": [
+      {
+         "type": "itemgrid",
+          "item_margin": "3,3",
+          "h_alignment": "left",
+          "item_size": 50,
+          "rows": [ 
+          ["tail_twirl","reptile_roll", "reptile_rush", "buddy_bubble", "buddy_slam"],
+          ["glide", "flappy_flight", "slurp_shot", "slurp_state", "camo_cloak"],
+          ["sonar_shield", "sonar_shot", "sonar_splosion", "lizard_lash", "lizard_leap"]
+         ] 
+     }
+   ]    
+  },
+  "consumables": {
+    "type": "array",
+    "orientation": "horizontal",
+    "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "3,3",
+                "item_size": 50,
+                "rows": [
+                    ["tropics_mollycool", "glacier_mollycool", "marsh_mollycool", "cashino_mollycool", "galaxy_mollycool"],
+                    ["tropics_play_coin", "glacier_play_coin", "marsh_play_coin", "cashino_play_coin", "galaxy_play_coin"],
+                    ["health_booster", "energy_booster", "pagie"]
+                ]
+            }
+        ]
+  },
+  "entrances_grid": {
+  "type": "array",
+  "orientation": "horizontal",
+  "content": [
+           {
+            "type": "itemgrid",
+            "item_margin": "3,0",
+            "h_alignment": "center",
+            "item_size": 60,
+            "rows": [
+                ["er_tropics_entry", "er_tropics_dest"],
+                ["er_glacier_entry", "er_glacier_dest"],
+                ["er_marsh_entry", "er_marsh_dest"],
+                ["er_cashino_entry", "er_cashino_dest"],
+                ["er_galleon_entry", "er_galleon_dest"]
+                    ]
+          }
+         ]
+    },
+
+  "brodcast": {
+    "type": "array",
+    "orientation": "horizontal",
+    "content":[
+      {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "3,3",
+        "item_size": 55,
+        "rows":[
+          ["tail_twirl","reptile_roll", "reptile_rush", "buddy_bubble", "buddy_slam"],
+          ["glide", "flappy_flight", "slurp_shot", "slurp_state", "camo_cloak"],
+          ["sonar_shield", "sonar_shot", "sonar_splosion", "lizard_lash", "lizard_leap"],
+          ["health_booster", "energy_booster", "pagie"],
+          ["er_tropics_entry", "er_tropics_dest"],
+          ["er_glacier_entry", "er_glacier_dest"],
+          ["er_marsh_entry", "er_marsh_dest"],
+          ["er_cashino_entry", "er_cashino_dest"],
+          ["er_galleon_entry", "er_galleon_dest"]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,206 @@
+[
+  {
+    "name": "Tail Twirl",
+    "type": "toggle",
+    "img": "images/items/Ability_Tail_Twirl.png",
+    "codes": "tail_twirl"  
+  },
+  
+  {
+      "name": "Reptile Roll",
+      "type": "toggle",
+      "img": "images/items/Ability_Reptile_Roll.png",
+      "codes": "reptile_roll"
+  },
+
+  {
+      "name": "Glide",
+      "type": "toggle",
+      "img": "images/items/Ability_Glide.png",
+      "codes": "glide"
+  },
+
+  {
+      "name": "Buddy Bubble",
+      "type": "toggle",
+      "img": "images/items/Ability_Buddy_Bubble.png",
+      "codes": "buddy_bubble"
+  },
+  
+  {
+      "name": "Camo Cloak",
+      "type": "toggle",
+      "img": "images/items/Ability_Camo_Cloak.png",
+      "codes": "camo_cloak"
+  },
+
+  {
+      "name": "Flappy Flight",
+      "type": "toggle",
+      "img": "images/items/Ability_Flappy_Flight.png",
+      "codes": "flappy_flight"
+  },
+  
+  {
+      "name": "Sonar Shot",
+      "type": "toggle",   
+      "img": "images/items/Ability_Sonar_Shot.png",
+      "codes": "sonar_shot"
+  },
+
+  {
+      "name": "Slurp Shot",
+      "type": "toggle",
+      "img": "images/items/Ability_Slurp_Shot.png",
+      "codes": "slurp_shot"
+  },
+
+  {
+      "name": "Buddy Slam",
+      "type": "toggle",
+      "img": "images/items/Ability_Buddy_Slam.png",
+      "codes": "buddy_slam"
+  },
+
+  {
+      "name": "Slurp State",
+      "type": "toggle",
+      "img": "images/items/Ability_Slurp_State.png",
+      "codes": "slurp_state"
+  },
+
+  {
+      "name": "Lizard Leap",
+      "type": "toggle",
+      "img": "images/items/Ability_Lizard_Leap.png",
+      "codes": "lizard_leap"    
+  },
+
+  {
+      "name": "Lizard Lash",
+      "type": "toggle",
+      "img": "images/items/Ability_Lizard_Lash.png",
+      "codes": "lizard_lash"
+  },
+
+  {
+      "name": "Sonar 'Splosion",
+      "type": "toggle",
+      "img": "images/items/Ability_Sonar_'Splosion.png",
+      "codes": "sonar_splosion"
+  },
+  
+  {
+      "name": "Reptile Rush",
+      "type": "toggle",
+      "img": "images/items/Ability_Reptile_Rush.png",
+      "codes": "reptile_rush"
+  },
+
+  {
+      "name": "Sonar Shield",
+      "type": "toggle",
+      "img": "images/items/Ability_Sonar_Shield.png",
+      "codes": "sonar_shield"
+  },
+
+  {
+      "name": "Tropics Mollycool",
+      "type": "toggle",
+      "img": "images/items/Mollycool.png",
+      "codes": "tropics_mollycool"
+  },
+
+  {
+      "name": "Glacier Mollycool",
+      "type": "toggle",
+      "img": "images/items/Mollycool.png",
+      "codes": "glacier_mollycool"
+  },
+
+  {
+      "name": "Marsh Mollycool",
+      "type": "toggle",
+      "img": "images/items/Mollycool.png",
+      "codes": "marsh_mollycool"
+  },
+
+  {
+      "name": "Cashino Mollycool",
+      "type": "toggle",
+      "img": "images/items/Mollycool.png",
+      "codes": "cashino_mollycool"
+  },
+
+  {
+      "name": "Galaxy Mollycool",
+      "type": "toggle",
+      "img": "images/items/Mollycool.png",
+      "codes": "galaxy_mollycool"
+  },
+
+  {
+      "name": "Tropics Play Coin",
+      "type": "toggle",
+      "img": "images/items/Play_Coin.png",
+      "codes": "tropics_play_coin"
+  },
+
+  {
+      "name": "Glacier Play Coin",
+      "type": "toggle",
+      "img": "images/items/Play_Coin.png",
+      "codes": "glacier_play_coin"
+  },
+
+  {
+      "name": "Marsh Play Coin",
+      "type": "toggle",
+      "img": "images/items/Play_Coin.png",
+      "codes": "marsh_play_coin"
+  },
+
+  {
+      "name": "Cashino Play Coin",
+      "type": "toggle",
+      "img": "images/items/Play_Coin.png",
+      "codes": "cashino_play_coin"
+  },
+
+  {
+      "name": "Galaxy Play Coin",
+      "type": "toggle",
+      "img": "images/items/Play_Coin.png",
+      "codes": "galaxy_play_coin"
+  },
+
+  {
+      "name": "Health Booster",
+      "type": "consumable",
+      "increment": 1,
+      "initial_quantity": 0,
+      "max_quantity": 6,
+      "img": "images/items/Health_Booster.png",
+      "codes": "health_booster"
+  },
+
+  {
+      "name": "Energy Booster",
+      "type": "consumable",
+      "increment": 1,
+      "initial_quantity": 0,
+      "max_quantity": 6,
+      "img": "images/items/Energy_Booster.png",
+      "codes": "energy_booster"
+  },
+
+  {
+      "name": "Pagie",
+      "type": "consumable",
+      "increment": 1,
+      "initial_quantity": 0,
+      "max_quantity": 145,
+      "img": "images/items/Pagie.png",
+      "codes": "pagie"
+  }
+]

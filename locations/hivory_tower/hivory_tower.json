@@ -1,0 +1,413 @@
+[
+    {
+        "name": "Hivory Tower",
+        "access_rules": ["$hivory_towers_entry"],
+        "children": [
+            {
+                "name": "Hivory Tower Hub Entrance",
+                "children": [
+                    {
+                        "name":"Capital B Statue",
+                        "sections": [
+                            {
+                                "name": "Hivory Towers Energy Booster",
+                                "access_rules": ["buddy_slam"]
+                            },
+                            {
+                                "name": "On Top of Capital B Statue Pagie",
+                                "access_rules": []
+                            }
+                        ],
+                        "map_locations":[
+                            {
+                                "map": "Hivory Towers Entrance",
+                                "x": 742,
+                                "y": 55
+                            }
+                        ]
+
+                    },
+                    {
+                        "name": "Extinguish the Fire",
+                        "sections": [
+                            {
+                                "name": "Extinguish the Fire Pagie",
+                                "access_rules":["$hivory_towers_entry, slurp_shot, pagie:1"]
+                                
+                            }   
+                        ],
+                        "map_locations":[
+                            {
+                                "map": "Hivory Towers Entrance",
+                                "x": 485,
+                                "y": 418
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Trowzer's Shop",
+                        "sections":[
+                            {
+                                "name": "Trowzer's Reptile Roll",
+                                "access_rules": []
+                            }
+                        ],
+                        "map_locations":[
+                            {
+                                "map": "Hivory Towers Entrance",
+                                "x": 265,
+                                "y": 780
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Entrance to Tribalstack Tropics Tome",
+                        "sections": [
+                            {
+                                "name": "Entrance to Tribalstack Tropics Tome Pagie",
+                                "access_rules": [
+                                    "slurp_shot, flappy_flight",
+                                    "slurp_shot, reptile_roll",
+                                    "slurp_shot, buddy_slam, glide, slurp_state"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Hivory Towers Tropics Entry",
+                                "x":  315,
+                                "y": 565
+                            }
+                        ]
+                        
+                    },
+                    {
+                        "name": "Fiery Pipe",
+                        "sections": [
+                            {
+                                "name": "Fiery Pipe",
+                                "access_rules": ["$reptile_rush"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Hivory Towers Tropics Entry",
+                                "x": 380,
+                                "y": 260
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hivory Towers Hub B",
+                        "access_rules": [
+                            "buddy_slam"
+                        ],
+                        "children":[
+                            {
+                                "name": "In the Pipes",
+                                "sections":[
+                                    {
+                                        "name": "In the Pipes Pagie",
+                                        "access_rules": ["glide","flappy_flight"]
+        
+                                    }
+                                ],
+                                "map_locations":[
+                                    {
+                                        "map": "Hivory Towers Glacier Entry",
+                                        "x": 480,
+                                        "y": 920
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Slippery Slope",
+                                "sections":[
+                                    {
+                                        "name": "Slippery Slope Pagie",
+                                        "access_rules": ["glide, slurp_state", "flappy_flight"]
+                                    }
+                                ],
+                                "map_locations":[
+                                    {
+                                        "map": "Hivory Towers Glacier Entry",
+                                        "x": 718,
+                                        "y": 290
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Pipe Climb",
+                                "sections":[
+                                    {
+                                        "name": "Pipe Climb Pagie",
+                                        "access_rules": ["flappy_flight","glide"]
+                                    }
+                                ],
+                                "map_locations":[
+                                    {
+                                        "map":"Hivory Towers Glacier Entry",
+                                        "x": 1180,
+                                        "y": 160
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "In the Arcade Machine",
+                                "sections":[
+                                    {
+                                        "name": "In the Arcade Machine Pagie",
+                                        "access_rules": ["sonar_splosion", "$reptile_rush"]
+                                    }
+                                ],
+                                "map_locations":[
+                                    {
+                                        "map": "Hivory Towers Archive",
+                                        "x": 457,
+                                        "y": 240
+                                        
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Trowzer's Shop",
+                                "sections":[
+                                    {
+                                        "name": "Trowzer's Glide",
+                                        "access_rules": []
+                                    }
+                                ],
+                                "map_locations":[
+                                    {
+                                        "map":"Hivory Towers Archive",
+                                        "x": 1720,
+                                        "y": 220
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Archive",
+                                "access_rules": "slurp_shot",
+                                "sections":[
+                                    {
+                                        "name": "Trowzer's Buddy Bubble",
+                                        "access_rules": []
+                                    },
+                                    {
+                                        "name": "Glass Maze Pagie",
+                                        "access_rules": []
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map":"Hivory Towers Archive",
+                                        "x": 145,
+                                        "y": 380
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Hivory Tower Waterworks",
+                                "access_rules": ["slurp_shot, buddy_bubble"],
+                                "children":[
+                                    {
+                                        "name": "Catch the Pagie",
+                                        "sections":[
+                                            {
+                                                "name": "Catch the Pagie",
+                                                "access_rules": []
+                                            }
+                                        ],
+                                        "map_locations": [
+                                            {
+                                                "map": "Hivory Towers Waterworks",
+                                                "x": 1285,
+                                                "y": 207
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Behind the Steel Bars",
+                                        "sections":[
+                                            {
+                                                "name": "Pagie behind the Steel Bars",
+                                                "access_rules": ["camo_cloak, buddy_bubble", "camo_cloak, lizard_lash"]
+                                            }
+                                        ],
+                                        "map_locations": [
+                                            {
+                                                "map": "Hivory Towers Waterworks",
+                                                "x": 610,
+                                                "y": 210
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Underwater Challenge",
+                                        "sections":[
+                                            {
+                                                "name": "Underwater Challenge Pagie",
+                                                "access_rules": []
+                                            }
+                                        ],
+                                        "map_locations":[
+                                            {
+                                                "map":"Hivory Towers Waterworks",
+                                                "x": 150,
+                                                "y": 955
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Trowzer's Shop",
+                                        "sections":[
+                                            {
+                                                "name": "Trowzer's Camo Cloak",
+                                                "access_rules": ["flappy_flight, lizard_lash"]
+                                            }
+                                        ],
+                                        "map_locations": [
+                                            {
+                                                "map": "Hivory Towers Camo Cloak Trowzer",
+                                                "x": 775,
+                                                "y": 315
+        
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Hivory Tower Outside (NoFlight)",
+                                        "access_rules": ["camo_cloak, lizard_lash", "flappy_flight"],
+                                        "children":[
+                                            {
+                                                "name": "Trowzer's Shop",
+                                                "sections":[
+                                                    {
+                                                        "name": "Trowzer's Flappy Flight",
+                                                        "access_rules": "camo_cloak"
+                                                    }
+                                                ],
+                                                "map_locations": [
+                                                    {
+                                                        "map": "Hivory Towers Acid Tunnel",
+                                                        "x": 354,
+                                                        "y": 348
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Novel Puzzle",
+                                                "sections":[
+                                                    {
+                                                        "name": "Novel Puzzle Pagie",
+                                                        "access_rules": "lizard_lash"
+                                                    }
+                                                ],
+                                                "map_locations": [
+                                                    {
+                                                        "map": "Hivory Towers Top Outside (NoFlight)",
+                                                        "x": 150,
+                                                        "y": 575
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Through the Toxic Tunnel",
+                                                "sections": [
+                                                    {
+                                                        "name": "Through the Toxic Tunnel Pagie",
+                                                        "access_rules": ["health_booster:3", "$sonar_shield", "reptile_roll, health_booster:1"]
+                                                    }
+                                                ],
+                                                "map_locations":[
+                                                    {
+                                                        "map": "Hivory Towers Acid Tunnel",
+                                                        "x": 1080,
+                                                        "y": 350
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Domino Books",
+                                                "sections":[
+                                                    {
+                                                        "name": "Domino Books Pagie",
+                                                        "access_rules": ["$reptile_rush"]
+                                                    }
+                                                ],
+                                                
+                                                    "map_locations":[
+                                                        {
+                                                            "map": "Hivory Towers Top Outside (NoFlight)",
+                                                            "x": 883,
+                                                            "y": 424
+                                                        }
+                                                    ]
+                                                
+                                            },
+                                            {
+                                                "name": "Hivory Towers Outside Flight",
+                                                "access_rules": "flappy_flight",
+                                                "children":[
+                                                    {
+                                                        "name": "Balloon Challenge",
+                                                        "sections":[
+                                                            {
+                                                                "name": "Balloon Challenge Pagie",
+                                                                "access_rules": "sonar_shot"
+                                                            }
+                                                        ],
+                                                        "map_locations":[
+                                                            {
+                                                                "map": "Hivory Towers Acid Tunnel",
+                                                                "x": 100,
+                                                                "y": 60
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "Slide Challenge",
+                                                        "sections": [
+                                                            {
+                                                                "name": "Slide Challenge Pagie",
+                                                                "access_rules" : []
+                                                            }
+                                                        ],
+                                                        "map_locations":[
+                                                            {
+                                                                "map": "Hivory Towers Galleon Entry",
+                                                                "x": 110,
+                                                                "y": 160
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "Across the Wind Turbines",
+                                                        "sections":[
+                                                            {
+                                                                "name": "Across the Wind Turbines Pagie",
+                                                                "access_rules": ["$reptile_rush, energy_booster:2"]
+                                                            }
+                                                        ],
+                                                        "map_locations":[
+                                                            {
+                                                                "map":"Hivory Towers Galleon Entry",
+                                                                "x": 1013,
+                                                                "y": 349
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                   }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            
+            }
+        ]
+    }
+]

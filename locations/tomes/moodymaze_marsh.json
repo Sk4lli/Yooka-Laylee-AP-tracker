@@ -1,0 +1,502 @@
+[
+    {
+        "name": "Moodymaze Marsh",
+        "access_rules": ["$MarshDestination"],
+        "children": [
+            {
+                "name": "Moodymaze Marsh Entry",
+                "access_rules": ["$marsh_entrance"],
+                "children": [
+                    {
+                        "name": "Marsh Mollycool",
+                        "sections": [
+                            {
+                                "name": "Marsh Mollycool",
+                                "access_rules": ["lizard_lash, buddy_bubble, buddy_slam"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Moodymaze Marsh 2",
+                                "x": 463,
+                                "y": 664
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Marsh Play Coin",
+                        "sections": [
+                            {
+                                "name": "Marsh Play Coin",
+                                "access_rules": [
+                                    "flappy_flight",
+                                    "lizard_lash"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Moodymaze Marsh 1",
+                                "x": 1166,
+                                "y": 355
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Trowzer's Shop",
+                        "sections": [
+                            {
+                                "name": "Trowzer's Lizard Lash",
+                                "access_rules": []
+                            },
+                            {
+                                "name": "Trowzer's Sonar 'Splosion",
+                                "access_rules": []
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map":"Moodymaze Marsh 1",
+                                "x": 940,
+                                "y": 600
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Swampy Station",
+                        "sections": [
+                            {
+                                "name": "Swampy Station Pagie",
+                                "access_rules": ["lizard_lash, buddy_slam, $reptile_rush"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Moodymaze Marsh 2",
+                                "x": 200,
+                                "y": 980
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rextro's Arcade",
+                        "sections": [
+                            {
+                                "name": "Rextro's Arcade (Bee Bop)",
+                                "access_rules": ["marsh_play_coin"]
+                            },
+                            {
+                                "name": "Rextro's Hi-score (Bee Bop)",
+                                "access_rules": ["marsh_play_coin"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Moodymaze Marsh 2",
+                                "x": 722,
+                                "y": 673
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Moodymaze Kartos Challenge",
+                        "sections": [
+                            {
+                                "name": "Moodymaze Kartos Challenge Pagie",
+                                "access_rules": []
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map":"Moodymaze Marsh 2",
+                                "x": 981,
+                                "y": 321
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Dusky Duct",
+                        "sections": [
+                            {
+                                "name": "Rescue Dolly the Trolley Pagie",
+                                "access_rules": ["lizard_lash, buddy_slam, marsh_mollycool"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map":"Moodymaze Marsh 2",
+                                "x": 180,
+                                "y": 950
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Defeat Trev the Tenteyecle",
+                        "sections": [
+                            {
+                                "name": "Defeat Trev the Tenteyecle Pagie",
+                                "access_rules": ["tail_twirl"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map":"Moodymaze Marsh 2",
+                                "x": 694,
+                                "y": 314
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Complete Ollie the Trolly's Maze",
+                        "sections": [
+                            {
+                                "name": "Complete Ollie the Trolly's Maze Pagie",
+                                "access_rules": []
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map":"Moodymaze Marsh 1",
+                                "x": 788,
+                                "y": 781
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Plumping Plant",
+                        "sections": [
+                            {
+                                "name": "Plumping Plant Puzzle Pagie",
+                                "access_rules": []
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map":"Moodymaze Marsh 1",
+                                "x": 1230,
+                                "y": 554
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Moodymaze Trapped Pagie",
+                        "sections": [
+                            {
+                                "name": "Moodymaze Trapped Pagie",
+                                "access_rules": [
+                                    "glide, buddy_slam",
+                                    "flappy_flight, buddy_slam"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map":"Moodymaze Marsh 1",
+                                "x": 996,
+                                "y": 625
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Underwater Pagie",
+                        "sections": [
+                            {
+                                "name": "Underwater Pagie",
+                                "access_rules": ["buddy_bubble"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map":"Moodymaze Marsh 1",
+                                "x": 1087,
+                                "y": 635
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Barbed Vines",
+                        "sections": [
+                            {
+                                "name": "Barbed Vines Pagie",
+                                "access_rules": ["lizard_lash, buddy_slam, marsh_mollycool"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map":"Moodymaze Marsh 2",
+                                "x": 390,
+                                "y": 900
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Murky Passage",
+                        "sections": [
+                            {
+                                "name": "Travel through the Murky Passage Pagie",
+                                "access_rules": ["lizard_lash, buddy_bubble, buddy_slam"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map":"Moodymaze Marsh 2",
+                                "x": 535,
+                                "y": 880
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Scale the Tree",
+                        "sections": [
+                            {
+                                "name": "Scale the Tree Pagie",
+                                "access_rules": [
+                                    "lizard_lash",
+                                    "flappy_flight"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map":"Moodymaze Marsh 1",
+                                "x": 1147,
+                                "y": 440
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Complete Jolly's Switch Mission",
+                        "sections": [
+                            {
+                                "name": "Complete Jolly's Switch Mission Pagie",
+                                "access_rules": ["lizard_lash, buddy_slam"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map":"Moodymaze Marsh 2",
+                                "x": 275,
+                                "y": 593
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Remove Fungus from Wally's Garden",
+                        "sections": [
+                            {
+                                "name": "Remove Fungus from Wally's Garden Pagie",
+                                "access_rules": ["sonar_splosion"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map":"Moodymaze Marsh 1",
+                                "x": 761,
+                                "y": 517
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Moodymaze Hanging Pagie",
+                        "sections": [
+                            {
+                                "name": "Moodymaze Hanging Pagie",
+                                "access_rules": ["sonar_splosion, slurp_shot"]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map":"Moodymaze Marsh 2",
+                                "x": 290,
+                                "y": 431
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Expanded Marsh",
+                        "access_rules": "$ExpandedMarshDestination",
+                        "children": [ 
+                                {
+                                    "name": "Marsh Energy Booster",
+                                    "sections": [
+                                        {
+                                            "name": "Marsh Energy Booster",
+                                            "access_rules": ["flappy_flight"]
+                                        }
+                                    ],
+                                    "map_locations": [
+                                        {
+                                            "map": "Moodymaze Marsh 2",
+                                            "x": 162,
+                                            "y": 160
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Marsh Health Booster",
+                                    "sections": [
+                                        {
+                                            "name": "Marsh Health Booster",
+                                            "access_rules": ["buddy_bubble, sonar_splosion"]
+                                        }
+                                    ],
+                                    "map_locations": [
+                                        {
+                                            "map": "Moodymaze Marsh 1",
+                                            "x": 914,
+                                            "y": 58
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Collectables",
+                                    "sections": [
+                                        {
+                                            "name": "Moodymaze Ghosts Pagie",
+                                            "access_rules": ["$marsh_ghosts"]
+                                        },
+                                        {
+                                            "name": "Moodymaze Quills Pagie",
+                                            "access_rules": ["$marsh_quills"]
+                                        }
+                                    ],
+                                    "map_locations": [
+                                        {
+                                            "map": "Moodymaze Marsh 1",
+                                            "x": 1063,
+                                            "y": 917
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Moodymaze Timed Platform Challenge",
+                                    "sections": [
+                                        {
+                                            "name": "Moodymaze Timed Platform Challenge Pagie",
+                                            "access_rules": [
+                                                "reptile_roll, buddy_slam",
+                                                "flappy_flight, buddy_slam"
+                                            ]
+                                        }
+                                    ],
+                                    "map_locations": [
+                                        {
+                                            "map": "Moodymaze Marsh 1",
+                                            "x": 707,
+                                            "y": 84
+                                        }
+                                    ]
+                                },
+                                {
+                                  
+                                    "name": "Cage Match",
+                                    "sections": [
+                                        {
+                                            "name": "Cage Match Pagie",
+                                            "access_rules": ["$cage_match"]
+                                        }
+                                    ],
+                                    "map_locations": [
+                                        {
+                                            "map": "Moodymaze Marsh 1",
+                                            "x": 788,
+                                            "y": 361
+                                        }
+                                    ]  
+                                },
+                                {
+                                    "name": "Hotswitch Hollow",
+                                    "sections": [
+                                        {
+                                            "name": "Hotswitch Hollow Pagie",
+                                            "access_rules": ["buddy_bubble"]
+                                        }
+                                    ],
+                                    "map_locations": [
+                                        {
+                                            "map": "Moodymaze Marsh 1",
+                                            "x": 934,
+                                            "y": 110
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Fire Platform Challenge",
+                                    "sections": [
+                                        {
+                                            "name": "Fire Platform Challenge Pagie",
+                                            "access_rules": [
+                                                "lizard_lash, slurp_state, buddy_slam",
+                                                "flappy_flight, buddy_slam, slurp_state"
+                                            ]
+                                        }
+                                    ],
+                                    "map_locations": [
+                                        {
+                                            "map": "Moodymaze Marsh 1",
+                                            "x": 919,
+                                            "y": 187
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Moodymaze Hoop Challenge",
+                                    "sections": [
+                                        {
+                                            "name": "Moodymaze Hoop Challenge Pagie",
+                                            "access_rules": ["lizard_lash"]
+                                        }
+                                    ],
+                                    "map_locations": [
+                                        {
+                                            "map": "Moodymaze Marsh 2",
+                                            "x": 134,
+                                            "y": 197
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Get Clara's Gem",
+                                    "sections": [
+                                        {
+                                            "name": "Get Clara's Gem Pagie",
+                                            "access_rules": ["sonar_splosion"]
+                                        }
+                                    ],
+                                    "map_locations": [
+                                        {
+                                            "map": "Moodymaze Marsh 1",
+                                            "x": 954,
+                                            "y": 64
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Collect Panlker's Seeds",
+                                    "sections": [
+                                        {
+                                            "name": "Collect Panlker's Seeds Pagie",
+                                            "access_rules": [
+                                                "lizard_lash, tail_twirl",
+                                                "lizard_lash, buddy_slam",
+                                                "lizard_lash, sonar_splosion"
+                                            ]
+                                        }
+                                    ],
+                                    "map_locations": [
+                                        {
+                                            "map": "Moodymaze Marsh 2",
+                                            "x": 364,
+                                            "y": 265
+                                        }
+                                    ]
+                                }
+                         ]
+                     }
+                ]
+            }
+            
+            
+        ]
+    }
+]

@@ -1,0 +1,449 @@
+[
+    {
+        "name": "Tribalstack Tropics",
+        "access_rules": ["$TropicsDestination"],
+        "children": [
+            {
+                "name": "Collectables",
+                "sections": [
+                    {
+                        "name": "Tribalstack Ghost Writers Pagie",
+                        "access_rules": [
+                            "pagie:4, slurp_shot, sonar_shot, tail_twirl"
+                        ]
+                    },
+                    {
+                        "name": "Tribalstack Quills Pagie",
+                        "access_rules":[
+                            "reptile_roll, lizard_leap, glide, camo_cloak, pagie:4"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tribalstack Tropics",
+                        "x": 454,
+                        "y": 776
+                    }
+                ]
+            },
+            {
+                "name": "Tropics Mollycool",
+                "sections":[
+                    {
+                     "name": "Tropics Mollycool",
+                     "access_rules": [
+                        "flappy_flight", 
+                        "Reptile_roll, sonar_shot"
+                     ]   
+                    }
+                ],
+                "map_locations": [
+                {
+                    "map": "Tribalstack Tropics",
+                    "x": 625,
+                    "y": 480
+                }
+                ]
+            },
+            {
+                "name": "Tropics Play Coin",
+                "sections": [
+                    {
+                        "name": "Tropics Play Coin",
+                        "access_rules": []
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tribalstack Tropics",
+                        "x": 773,
+                        "y": 515
+                    }
+                ]
+            },
+            {
+                "name": "Duke's Temple",
+                "sections": [
+                    {
+                        "name": "Assist Planker Pagie",
+                        "access_rules": [
+                            "flappy_flight",
+                            "lizard_leap, glide, sonar_shot"
+                        ]
+                    },
+                    {
+                        "name": "Trowzer's Sonar Shot",
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Trowzer's Slurp Shot",
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Trowzer's Buddy Slam",
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Duke's Temple Shootout Pagie",
+                        "access_rules": [
+                            "slurp_shot, buddy_slam"
+                        ]
+                    }
+                    
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tribalstack Tropics",
+                        "x": 545,
+                        "y": 520
+                    }
+                ]
+            },
+            {
+                "name": "Rextro's Arcade",
+                "access_rules": ["tropics_play_coin"],
+                "sections": [
+                    {
+                        "name": "Rextro's Arcade (Kartos Carts)",
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Rextro's Hi-Score (Kartos Carts)",
+                        "access_rules": []
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tribalstack Tropics",
+                        "x": 815,
+                        "y": 505
+                    }
+                ]
+            },
+            {
+                "name": "Pollinate Plant Bulbs",
+                "sections": [
+                    {
+                        "name": "Pollinate Plant Bulbs Pagie",
+                        "access_rules": [
+                            "tropics_mollycool"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map":"Tribalstack Tropics",
+                        "x": 673,
+                        "y": 380
+                    }
+                ]
+            },
+            {
+                "name": "Solve the Tribalstack Tile Puzzle",
+                "sections": [
+                    {
+                        "name": "Solve the Tribalstack Tile Puzzle Pagie",
+                        "access_rules": ["buddy_slam"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map":"Tribalstack Tropics",
+                        "x": 618,
+                        "y": 542
+                    }
+                ]
+            },
+            {
+                "name": "Locate the Knights",
+                "sections": [
+                    {
+                        "name": "Locate the Knights of Hamalot in Tribalstack Pagie",
+                        "access_rules": ["$locate_knight"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tribalstack Tropics",
+                        "x": 380,
+                        "y": 498
+                    }
+                ]
+            },
+            {
+                "name": "Rescue Clara Lost in Tribalstack",
+                "sections": [
+                    {
+                        "name": "Rescue Clara Lost in Tribalstack Pagie",
+                        "access_rules": []
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tribalstack Tropics",
+                        "x": 603,
+                        "y": 711
+                    }
+                ]
+            },
+            {
+                "name": "Nimble Race",
+                "sections": [
+                    {
+                        "name": "Nimble Dry Canal Race Pagie",
+                        "access_rules": "reptile_roll"
+                    },
+                    {
+                        "name": "Nimble Frozen Canal Race Pagie",
+                        "access_rules": ["reptile_roll, pagie:4, slurp_shot"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tribalstack Tropics",
+                        "x": 551,
+                        "y": 622
+                    }
+                ]
+            },
+            {
+                "name": "Assemble the Tribalstack Pagie Pieces",
+                "sections": [
+                    {
+                        "name": "Assemble the Tribalstack Pagie Pieces",
+                        "access_rules": []
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tribalstack Tropics",
+                        "x": 449,
+                        "y": 482
+                    }
+                ]
+            },
+            {
+                "name": "Activate the Floating Platforms",
+                "sections": [
+                    {
+                        "name": "Activate the Floating Platforms Pagie",
+                        "access_rules": ["sonar_shot"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tribalstack Tropics",
+                        "x": 380,
+                        "y": 640   
+                    }
+                ]
+            },
+            {
+                "name": "Collect the Underwater Pagie",
+                "sections": [
+                    {
+                        "name": "Collect the Underwater Pagie",
+                        "access_rules": ["buddy_slam, buddy_bubble"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tribalstack Tropics",
+                        "x": 571,
+                        "y": 349
+                    }
+                ]
+            },
+            {
+                "name": "Tribalstack Roll Hoop Challenge",
+                "sections": [
+                    {
+                        "name": "Tribalstack Roll Hoop Challenge Pagie",
+                        "access_rules": []
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tribalstack Tropics",
+                        "x": 577,
+                        "y": 442
+                    }
+                ]
+            },
+            {
+           "name": "Expanded Tropics",
+           "access_rules": ["$ExpandedTropicsDestination"],
+           "children": [
+            {
+                "name": "Tribalstack Tropics Kartos Challenge",
+                "sections": [
+                    {
+                        "name": "Tribalstack Tropics Kartos Challenge Pagie",
+                        "access_rules": []
+                    },
+                    {
+                        "name": "The Windy Challenge Pagie"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tribalstack Tropics",
+                        "x": 281,
+                        "y": 240
+                    }
+                ]
+            },
+            {
+                "name": "Rampo",
+                "sections": [
+                    {
+                        "name": "Rampo Pagie",
+                        "access_rules": ["tail_twirl"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tribalstack Tropics",
+                        "x": 155,
+                        "y": 717
+                    }
+                ]
+            },
+            {
+                "name": "Assist Blastooie",
+                "sections": [
+                    {
+                        "name": "Assist Blastooie Pagie",
+                        "access_rules": [
+                            "buddy_slam, reptile_roll, slurp_state",
+                            "buddy_slam, flappy_flight"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tribalstack Tropics",
+                        "x": 288,
+                        "y": 210
+                    }
+                ]
+            },
+            {
+                "name": "Find Shovel Knight's Ruby",
+                "sections": [
+                    {
+                        "name": "Find Shovel Knight's Ruby Pagie",
+                        "access_rules": ["slurp_shot"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tribalstack Tropics",
+                        "x": 638,
+                        "y": 833
+                    }
+                ]
+            },
+            {
+                "name": "Repair the Broken Bridge",
+                "sections": [
+                    {
+                        "name": "Repair the Broken Bridge Pagie",
+                        "access_rules": [
+                            "sonar_shot",
+                            "sonar_splosion"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tribalstack Tropics",
+                        "x": 686,
+                        "y": 584
+                    }
+                ]
+            },
+            {
+                "name": "Backside of the Monument",
+                "sections": [
+                    {
+                        "name": "Spew Water on Mr. Blowy Pagie",
+                        "access_rules": [
+                            "reptile_roll, lizard_leap, slurp_shot",
+                            "flappy_flight, slurp_shot"
+                        ]
+                    },
+                    {
+                        "name": "Tropics Health Booster",
+                        "access_rules": []
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tribalstack Tropics",
+                        "x": 323,
+                        "y": 140
+                    }
+                ]
+            },
+            {
+                "name": "Tribalstack Glide Hoop Challenge",
+                "sections": [
+                    {
+                        "name": "Tribalstack Glide Hoop Challenge Pagie",
+                        "access_rules": [
+                            "glide, reptile_roll",
+                            "flappy_flight"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tribalstack Tropics",
+                        "x": 199,
+                        "y": 337
+                    }
+                ]
+            },
+            {
+                "name": "Inside the Tribalstack Monument",
+                "sections": [
+                    {
+                        "name": "Inside the Tribalstack Monument Pagie",
+                        "access_rules": ["slurp_shot, camo_cloak"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tribalstack Tropics",
+                        "x": 380,
+                        "y": 327
+                    }
+                ]
+            },
+            {
+                "name": "Tribalstack Energy Booster",
+                "sections": [
+                    {
+                        "name": "Tribalstack Energy Booster",
+                        "access_rules": ["$tropics_energy"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tribalstack Tropics",
+                        "x": 285,
+                        "y": 101
+                    }
+                ]
+            }
+            
+           ]
+         }
+   
+            
+        ]
+        
+    }
+]

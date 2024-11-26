@@ -1,0 +1,26 @@
+{
+
+  "name": "Yooka-Laylee AP PopTracker",
+  "game_name": "Yooka-Laylee",
+  "package_version": "0.0.1",
+  "package_uid": "Yooka-Laylee_maptracker_risingphoenix64",
+  "platform": "PC",
+  "author": "RisingPhoenix64",
+  "variants": {
+    "standard": {
+      "display_name": "Map Tracker",
+      "flags": [
+       "ap"
+      ]
+    },
+    "var_itemsonly": {
+      "display_name": "Items Only",
+      "flags": [
+        "ap"
+      ]
+    }
+  },
+  "versions_url": "https://example.com/versions.json",
+    "min_poptracker_version": "0.23.1",
+    "target_poptracker_version": "0.23.1"
+}

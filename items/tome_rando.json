@@ -1,0 +1,278 @@
+[
+    {
+        "name": "Tribalstack Tropics - Entrance",
+        "type": "toggle",
+        "codes": "er_tropics_entry",
+        "disabled_img_mods": "none",
+        "img": "images/entrances/tropics_entry.png"
+    },
+    {
+        "name": "Glitterglaze Glacier - Entrance",
+        "type": "toggle",
+        "codes": "er_glacier_entry",
+        "disabled_img_mods": "none",
+        "img": "images/entrances/glacier_entry.png"
+    },
+    {
+        "name": "Moodymaze Marsh - Entrance",
+        "type": "toggle",
+        "codes": "er_marsh_entry",
+        "disabled_img_mods": "none",
+        "img": "images/entrances/marsh_entry.png"
+    },
+    {
+        "name": "Capital Cashino - Entrance",
+        "type": "toggle",
+        "codes": "er_cashino_entry",
+        "disabled_img_mods": "none",
+        "img": "images/entrances/cashino_entry.png"
+    },
+    {
+        "name": "Galleon Galaxy - Entrance",
+        "type": "toggle",
+        "codes": "er_galleon_entry",
+        "disabled_img_mods": "none",
+        "img": "images/entrances/galleon_entry.png"
+    },
+    {
+        "name": "Tribalstack Tropics - Destination Symbol",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "codes": "er_tropics_dest",
+        "stages": [
+            {
+                "name": "??? Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/unknown.png"
+            },
+            {
+                "name": "Tribalstack Tropics Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/tropics_dest.png"
+            },
+            {
+                "name": "Glitterglaze Glacier Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/glacier_dest.png"
+            },
+            {
+                "name": "Moodymaze Marsh Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/marsh_dest.png"
+            },
+            {
+                "name": "Capital Cashino Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/cashino_dest.png"
+            },
+            {
+                "name": "Galleon Galaxy Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/galleon_dest.png"
+            }
+
+        ]
+    },
+    {
+        "name": "Glitterglaze Glacier - Destination Symbol",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "codes": "er_glacier_dest",
+        "stages": [
+            {
+                "name": "??? Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/unknown.png"
+            },
+            {
+                "name": "Tribalstack Tropics Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/tropics_dest.png"
+            },
+            {
+                "name": "Glitterglaze Glacier Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/glacier_dest.png"
+            },
+            {
+                "name": "Moodymaze Marsh Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/marsh_dest.png"
+            },
+            {
+                "name": "Capital Cashino Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/cashino_dest.png"
+            },
+            {
+                "name": "Galleon Galaxy Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/galleon_dest.png"
+            }
+
+        ]
+    },
+    {
+        "name": "Moodymaze Marsh - Destination Symbol",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "codes": "er_marsh_dest",
+        "stages": [
+            {
+                "name": "??? Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/unknown.png"
+            },
+            {
+                "name": "Tribalstack Tropics Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/tropics_dest.png"
+            },
+            {
+                "name": "Glitterglaze Glacier Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/glacier_dest.png"
+            },
+            {
+                "name": "Moodymaze Marsh Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/marsh_dest.png"
+            },
+            {
+                "name": "Capital Cashino Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/cashino_dest.png"
+            },
+            {
+                "name": "Galleon Galaxy Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/galleon_dest.png"
+            }
+
+        ]
+    },
+    {
+        "name": "Capital Cashino - Destination Symbol",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "codes": "er_cashino_dest",
+        "stages": [
+            {
+                "name": "??? Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/unknown.png"
+            },
+            {
+                "name": "Tribalstack Tropics Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/tropics_dest.png"
+            },
+            {
+                "name": "Glitterglaze Glacier Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/glacier_dest.png"
+            },
+            {
+                "name": "Moodymaze Marsh Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/marsh_dest.png"
+            },
+            {
+                "name": "Capital Cashino Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/cashino_dest.png"
+            },
+            {
+                "name": "Galleon Galaxy Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/galleon_dest.png"
+            }
+
+        ]
+    },
+    {
+        "name": "Galleon Galaxy - Destination Symbol",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "codes": "er_galleon_dest",
+        "stages": [
+            {
+                "name": "??? Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/unknown.png"
+            },
+            {
+                "name": "Tribalstack Tropics Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/tropics_dest.png"
+            },
+            {
+                "name": "Glitterglaze Glacier Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/glacier_dest.png"
+            },
+            {
+                "name": "Moodymaze Marsh Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/marsh_dest.png"
+            },
+            {
+                "name": "Capital Cashino Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/cashino_dest.png"
+            },
+            {
+                "name": "Galleon Galaxy Destination",
+                "inherit_codes": false,
+                "img": "images/entrances/galleon_dest.png"
+            }
+
+        ]
+    },
+    {
+        "name": "Clear All Entrances",
+        "type": "progressive",
+        "codes": "er_clear",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/entrances/clear.png",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/entrances/clear.png",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Reset All Entrances to Default",
+        "type": "progressive",
+        "codes": "er_reset_all",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/entrances/reset.png",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/entrances/reset.png",
+                "inherit_codes": false
+            }
+        ]
+    }
+]
