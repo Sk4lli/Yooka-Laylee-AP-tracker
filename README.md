@@ -10,4 +10,5 @@ The tracker currently includes logic with tome randomization and AP autotracking
 
 ## More Info
 Download Poptracker [here](https://github.com/black-sliver/PopTracker)
+
 Join the ['Unofficial' PopTracker Discord Server](https://discord.com/invite/gwThqMCPgK)
