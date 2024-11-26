@@ -2,6 +2,7 @@
     "versions": [
        {
         "package_version": "0.0.1",
+        "sha256": "9125097AD55B1A9B0F9F91C7462A9937023D2EF9A3A60D37232298FF8F31465A",
         "changelog": [
                 "initial version"
             ]
