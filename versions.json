@@ -1,0 +1,10 @@
+{
+    "versions": [
+       {
+        "package_version": "0.0.1",
+        "changelog": [
+                "initial version"
+            ]
+       }
+    ]
+}
