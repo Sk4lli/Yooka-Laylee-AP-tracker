@@ -399,7 +399,10 @@
                                 "sections": [
                                     {
                                         "name": "Star Fishing Minigame Pagie",
-                                        "access_rules": []
+                                        "access_rules": [
+                                            "buddy_slam, sonar_shot, flappy_flight, galaxy_mollycool",
+                                            "buddy_slam, sonar_splosion, buddy_slam, flappy_flight, galaxy_mollycool"
+                                        ]
                                     }
                                 ],
                                 "map_locations": [
