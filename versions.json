@@ -10,7 +10,7 @@
        },
        {
         "package_version": "0.0.2",
-        "sha256": "6bcb0a735b8b855ae633d1bfc60d2252a9037a22fa31a8c6ce81e7fe4f6d63d9",
+        "sha256": "ed7006eee22192127e6ddd3d5aeff68b73a6dba36a73a37e59729c7ec5279b8d",
         "download_url": "https://github.com/RisingPhoenix64/Yooka-Laylee-AP-tracker/releases/download/v0.0.2/Yooka-Laylee-AP-Tracker.zip",
         "changelog": [
            "Hopefully fixed all known bugs",
