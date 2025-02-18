@@ -7,6 +7,16 @@
         "changelog": [
                 "initial version"
             ]
-       }
+       },
+       {
+       "package_version": "0.0.2",
+       "sha256": "c5fefee6eeb9a5a4633d02cf78629a3712130d356905b4bf958d39ece12a6cad",
+       "download_url": "https://github.com/RisingPhoenix64/Yooka-Laylee-AP-tracker/releases/download/v0.0.2/YL.AP.Tracker.zip"
+       "changelog": [
+       "Hopefully fixed all known bugs"
+       "added buttons to expand Tomes for better tracking"
+            ]
+       },
+       
     ]
 }
