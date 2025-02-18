@@ -3,7 +3,7 @@
        {
         "package_version": "0.0.1",
         "sha256": "4C21DE5E7A6BEBCC0290B5274D4618B3F7F3236D25B5A029CC59A5CECF27D697",
-        "download_url": "https://github.com/RisingPhoenix64/Yooka-Laylee-AP-tracker/releases/tag/v0.0.1/Yooka-Laylee-AP-Tracker.zip",
+        "download_url": "https://github.com/RisingPhoenix64/Yooka-Laylee-AP-tracker/releases/download/v0.0.1/Yooka-Laylee-AP-Tracker.zip",
         "changelog": [
                 "initial version"
             ]
@@ -11,12 +11,11 @@
        {
         "package_version": "0.0.2",
         "sha256": "6bcb0a735b8b855ae633d1bfc60d2252a9037a22fa31a8c6ce81e7fe4f6d63d9",
-        "download_url": "https://github.com/RisingPhoenix64/Yooka-Laylee-AP-tracker/releases/tag/v0.0.2/Yooka-Laylee-AP-Tracker.zip",
+        "download_url": "https://github.com/RisingPhoenix64/Yooka-Laylee-AP-tracker/releases/download/v0.0.2/Yooka-Laylee-AP-Tracker.zip",
         "changelog": [
            "Hopefully fixed all known bugs",
            "added buttons to expand Tomes for better tracking"
             ]
-       },
-       
+       }
     ]
 }
