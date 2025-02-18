@@ -32,7 +32,7 @@
                         "sections": [
                             {
                                 "name": "Extinguish the Fire Pagie",
-                                "access_rules":["$hivory_towers_entry, slurp_shot, pagie:1"]
+                                "access_rules":["$postTropics, slurp_shot"]
                                 
                             }   
                         ],

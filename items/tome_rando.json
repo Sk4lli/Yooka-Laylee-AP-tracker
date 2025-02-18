@@ -240,39 +240,33 @@
         ]
     },
     {
-        "name": "Clear All Entrances",
-        "type": "progressive",
-        "codes": "er_clear",
-        "allow_disabled": false,
-        "initial_stage_idx": 0,
-        "loop": true,
-        "stages": [
-            {
-                "img": "images/entrances/clear.png",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/entrances/clear.png",
-                "inherit_codes": false
-            }
-        ]
+        "name": "Tribalstack Tropics - Expanded",
+        "type": "toggle",
+        "codes": "tropics_ex",
+        "img": "images/entrances/tropics_dest.png"
     },
     {
-        "name": "Reset All Entrances to Default",
-        "type": "progressive",
-        "codes": "er_reset_all",
-        "allow_disabled": false,
-        "initial_stage_idx": 0,
-        "loop": true,
-        "stages": [
-            {
-                "img": "images/entrances/reset.png",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/entrances/reset.png",
-                "inherit_codes": false
-            }
-        ]
+        "name": "Glitterglaze Glacier - Expanded",
+        "type": "toggle",
+        "codes": "glacier_ex",
+        "img": "images/entrances/glacier_dest.png"
+    },
+    {
+        "name": "Moodymaze Marsh - Expanded",
+        "type": "toggle",
+        "codes": "marsh_ex",
+        "img": "images/entrances/marsh_dest.png"
+    },
+    {
+        "name": "Capital Cashino - Expanded",
+        "type": "toggle",
+        "codes": "cashino_ex",
+        "img": "images/entrances/cashino_dest.png"
+    },
+    {
+        "name": "Galleon Galaxy - Expanded",
+        "type": "toggle",
+        "codes": "galleon_ex",
+        "img": "images/entrances/galleon_dest.png"
     }
 ]

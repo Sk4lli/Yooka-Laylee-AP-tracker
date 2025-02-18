@@ -27,7 +27,7 @@
             "sections":[
               {
                 "name": "The Wrecked Crow's Nest Pagie",
-                "access_rules": ["pagie:1, flappy_flight","pagie:1, reptile_roll"]
+                "access_rules": ["$postTropics"]
               }
             ],
             "map_locations":[

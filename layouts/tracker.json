@@ -39,6 +39,17 @@
                   "key": "entrances_grid"
                 }
               ]
+            },
+            {
+              "type": "group",
+              "header": "Expanded",
+              "dock": "top",
+              "content": [
+                {
+                  "type": "layout",
+                  "key": "expanded_grid"
+                }
+              ]
             }
           ]
         },

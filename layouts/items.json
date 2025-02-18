@@ -54,6 +54,21 @@
          ]
     },
 
+      "expanded_grid": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "3,0",
+            "item_size": 50,
+            "rows": [
+              ["tropics_ex", "glacier_ex", "marsh_ex", "cashino_ex", "galleon_ex"]
+                    ]
+          }
+        ]
+    },
+
   "brodcast": {
     "type": "array",
     "orientation": "horizontal",
@@ -72,7 +87,8 @@
           ["er_glacier_entry", "er_glacier_dest"],
           ["er_marsh_entry", "er_marsh_dest"],
           ["er_cashino_entry", "er_cashino_dest"],
-          ["er_galleon_entry", "er_galleon_dest"]
+          ["er_galleon_entry", "er_galleon_dest"],
+          ["tropics_ex", "glacier_ex", "marsh_ex", "cashino_ex", "galleon_ex"]
         ]
       }
     ]

@@ -1,7 +1,3 @@
--- to do:
--- get the images for the Entrances like TT, >, GGG or CC, >, GG and set it up on screen
--- test tropic logic if the system works as i think
-
 -- Reptile Rush and Sonar Shield Logic
 function reptile_rush()
     return has("reptile_roll") and has("reptile_rush")
@@ -19,6 +15,11 @@ function damaging_ability()
     or has("buddy_slam")
     or has("sonar_splosion")
 end
+-- SHipwreck Creek
+function postTropics()
+   return TropicsDestination() and (has("flappy_flight") or has("reptile_roll"))
+end
+
 
 -- Tropcis Logic
 function locate_knight()
@@ -27,8 +28,7 @@ function locate_knight()
 end
 
 function tropics_energy()
-    return has("flappy_flight") or 
-    (has("reptile_roll") and has("slurp_state") and (has("glide") or has("lizard_leap")) and (had("sonar_splosion") or has("slurp_state")))
+   return has("flappy_flight") or ((has("glide") or has("lizard_leap")) and (has("sonar_splosion") or has("sonar_shot")))
 end
 -- Glacier logic
 function glacier_entrance()
@@ -163,7 +163,7 @@ function icymetric_play_coin()
 end
 -- Marsh Logic
 function marsh_entrance()
-    return has("buddy_slam") or has("lizard_leap") or has("flappy_flight")
+    return has("buddy_bubble") or has("lizard_leap") or has("flappy_flight")
 end
 
 function marsh_ghosts()
@@ -238,4 +238,15 @@ function galleon_knights()
     and has("camo_cloak")
     and has("sonar_shot")
     and has("sonar_splosion")
+end
+function galaxy_piece()
+    pagie_count = 0
+    pagie_count = pagie_count + Tracker:ProviderCountForCode("pagie")
+    return galaxy_entrance()
+    and has("buddy_bubble")
+    and has("flappy_flight")
+    and has("galaxy_mollycool")
+    and (has("sonar_shot") or has("sonar_splosion"))
+    and expanded_galleon()
+    and pagie_count >= 75
 end

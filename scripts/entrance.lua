@@ -25,13 +25,7 @@ end
 
 -- Expanded Tribalstack
 function expanded_tropics()
-    entry_count = 0
-    entry_count = entry_count + Tracker:ProviderCountForCode("pagie")
-    if entry_count >= 4 and tribalstack_tome_moves() then
-        return true
-    else
-        return false
-    end
+    return tribalstack_tome_moves()
 end
 
 -- Glacier Entrance Logic
@@ -51,13 +45,7 @@ function glacier_entry()
 end
 
 function expanded_glacier()
-    entry_count = 0
-    entry_count = entry_count + Tracker:ProviderCountForCode("pagie")
-    if entry_count >= 12 and glacier_moves() then
-        return true
-    else
-        return false
-    end
+    return glacier_moves()
 end
 
 -- Moodymaze Marsh Entrance
@@ -76,13 +64,7 @@ function marsh_entry()
 end
 
 function expanded_marsh()
-    entry_count = 0
-    entry_count = entry_count + Tracker:ProviderCountForCode("pagie")
-    if entry_count >= 27 and marsh_moves() then
-        return true
-    else
-        return false
-    end
+    return marsh_moves()
 end
 
 -- Capital Cashino Entrance
@@ -101,13 +83,7 @@ function cashino_entry()
 end
 
 function expanded_cashino()
-    entry_count = 0
-    entry_count = entry_count + Tracker:ProviderCountForCode("pagie")
-    if entry_count >= 48 and cashino_moves() then
-        return true
-    else
-        return false
-    end
+    return cashino_moves()
 end
 -- Galleon Galaxy Entrance
 function galleon_moves()
@@ -125,13 +101,7 @@ function galleon_entry()
 end
 
 function expanded_galleon()
-    entry_count = 0
-    entry_count = entry_count + Tracker:ProviderCountForCode("pagie")
-    if entry_count >= 75 and galleon_entry() then
-        return true
-    else
-        return false
-    end
+    return galleon_moves()
 end
 
 
@@ -219,71 +189,80 @@ end
 
 --Expanded Destination Logic
 function ExpandedTropicsDestination()
-    for stage, _ in pairs(EntranceTable["name"]) do
-        if Tracker:FindObjectForCode("er_tropics_dest").CurrentStage == 1 then
-            return expanded_tropics()
-        elseif Tracker:FindObjectForCode("er_glacier_dest").CurrentStage == 1 then
-            return expanded_glacier()
-        elseif Tracker:FindObjectForCode("er_marsh_dest").CurrentStage == 1 then
-            return expanded_marsh()
-        elseif Tracker:FindObjectForCode("er_cashino_dest").CurrentStage == 1 then
-            return expanded_cashino()
-        elseif Tracker:FindObjectForCode("er_galleon_dest").CurrentStage == 1 then
-            return expanded_galleon()
+   if has("tropics_ex") then
+        for stage, _ in pairs(EntranceTable["name"]) do
+            if Tracker:FindObjectForCode("er_tropics_dest").CurrentStage == 1 then
+                return expanded_tropics()
+            elseif Tracker:FindObjectForCode("er_glacier_dest").CurrentStage == 1 then
+                return expanded_glacier()
+            elseif Tracker:FindObjectForCode("er_marsh_dest").CurrentStage == 1 then
+                return expanded_marsh()
+            elseif Tracker:FindObjectForCode("er_cashino_dest").CurrentStage == 1 then
+                return expanded_cashino()
+            elseif Tracker:FindObjectForCode("er_galleon_dest").CurrentStage == 1 then
+                return expanded_galleon()
+            end
         end
     end
 end
 
 function ExpandedGlacierDestination()
-    for stage, _ in pairs(EntranceTable["name"]) do
-        if Tracker:FindObjectForCode("er_tropics_dest").CurrentStage == 2 then
-            return expanded_tropics()
-        elseif Tracker:FindObjectForCode("er_glacier_dest").CurrentStage == 2 then
-            return expanded_glacier()
-        elseif Tracker:FindObjectForCode("er_marsh_dest").CurrentStage == 2 then
-            return expanded_marsh()
-        elseif Tracker:FindObjectForCode("er_cashino_dest").CurrentStage == 2 then
-            return expanded_cashino()
-        elseif Tracker:FindObjectForCode("er_galleon_dest").CurrentStage == 2 then
-            return expanded_galleon()
-        end
-    end
+    if has("glacier_ex") then
+        for stage, _ in pairs(EntranceTable["name"]) do
+            if Tracker:FindObjectForCode("er_tropics_dest").CurrentStage == 2 then
+                return expanded_tropics()
+            elseif Tracker:FindObjectForCode("er_glacier_dest").CurrentStage == 2 then
+                return expanded_glacier()
+            elseif Tracker:FindObjectForCode("er_marsh_dest").CurrentStage == 2 then
+                return expanded_marsh()
+            elseif Tracker:FindObjectForCode("er_cashino_dest").CurrentStage == 2 then
+                return expanded_cashino()
+            elseif Tracker:FindObjectForCode("er_galleon_dest").CurrentStage == 2 then
+                return expanded_galleon()
+            end
+        end   
+    end   
 end
 
 function ExpandedMarshDestination()
-    for stage, _ in pairs(EntranceTable["name"]) do
-        if Tracker:FindObjectForCode("er_tropics_dest").CurrentStage == 3 then
-            return expanded_tropics()
-        elseif Tracker:FindObjectForCode("er_glacier_dest").CurrentStage == 3 then
-            return expanded_glacier()
-        elseif Tracker:FindObjectForCode("er_marsh_dest").CurrentStage == 3 then
-            return expanded_marsh()
-        elseif Tracker:FindObjectForCode("er_cashino_dest").CurrentStage == 3 then
-            return expanded_cashino()
-        elseif Tracker:FindObjectForCode("er_galleon_dest").CurrentStage == 3 then
-            return expanded_galleon()
-        end
-    end
+    if has("marsh_ex") then
+        for stage, _ in pairs(EntranceTable["name"]) do
+            if Tracker:FindObjectForCode("er_tropics_dest").CurrentStage == 3 then
+                return expanded_tropics()
+            elseif Tracker:FindObjectForCode("er_glacier_dest").CurrentStage == 3 then
+                return expanded_glacier()
+            elseif Tracker:FindObjectForCode("er_marsh_dest").CurrentStage == 3 then
+                return expanded_marsh()
+            elseif Tracker:FindObjectForCode("er_cashino_dest").CurrentStage == 3 then
+                return expanded_cashino()
+            elseif Tracker:FindObjectForCode("er_galleon_dest").CurrentStage == 3 then
+                return expanded_galleon()
+            end
+        end  
+    end  
 end
 
 function ExpandedCashinoDestination()
-    for stage, _ in pairs(EntranceTable["name"]) do
-        if Tracker:FindObjectForCode("er_tropics_dest").CurrentStage == 4 then
-            return expanded_tropics()
-        elseif Tracker:FindObjectForCode("er_glacier_dest").CurrentStage == 4 then
-            return expanded_glacier()
-        elseif Tracker:FindObjectForCode("er_marsh_dest").CurrentStage == 4 then
-            return expanded_marsh()
-        elseif Tracker:FindObjectForCode("er_cashino_dest").CurrentStage == 4 then
-            return expanded_cashino()
-        elseif Tracker:FindObjectForCode("er_galleon_dest").CurrentStage == 4 then
-            return expanded_galleon()
-        end
-    end
+    if has("cashino_ex") then
+        for stage, _ in pairs(EntranceTable["name"]) do
+            if Tracker:FindObjectForCode("er_tropics_dest").CurrentStage == 4 then
+                return expanded_tropics()
+            elseif Tracker:FindObjectForCode("er_glacier_dest").CurrentStage == 4 then
+                return expanded_glacier()
+            elseif Tracker:FindObjectForCode("er_marsh_dest").CurrentStage == 4 then
+                return expanded_marsh()
+            elseif Tracker:FindObjectForCode("er_cashino_dest").CurrentStage == 4 then
+                return expanded_cashino()
+            elseif Tracker:FindObjectForCode("er_galleon_dest").CurrentStage == 4 then
+                return expanded_galleon()
+            end
+        end   
+    end 
 end
 
 function ExpandedGalleonDestination()
-    for stage, _ in pairs(EntranceTable["name"]) do
+    if has("galleon_ex") then
+     for stage, _ in pairs(EntranceTable["name"]) do
         if Tracker:FindObjectForCode("er_tropics_dest").CurrentStage == 5 then
             return expanded_tropics()
         elseif Tracker:FindObjectForCode("er_glacier_dest").CurrentStage == 5 then
@@ -295,7 +274,6 @@ function ExpandedGalleonDestination()
         elseif Tracker:FindObjectForCode("er_galleon_dest").CurrentStage == 5 then
             return expanded_galleon()
         end
+        end    
     end
 end
-
--- Marsh 
