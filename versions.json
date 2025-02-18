@@ -1,14 +1,6 @@
 {
     "versions": [
         {
-        "package_version": "0.0.3",
-        "download_url": "https://github.com/RisingPhoenix64/Yooka-Laylee-AP-tracker/releases/download/v0.0.3/Yooka-Laylee-AP.tracker.zip",
-        "sha256": "a483afd8a73df067dcc9e44533d14fcd3d10e43970e12d29ebfe4a3c81616a33",
-        "changelog": [
-           "just a test for myself do not download!!!!!"
-            ]
-       },
-        {
         "package_version": "0.0.2",
         "download_url": "https://github.com/RisingPhoenix64/Yooka-Laylee-AP-tracker/releases/download/v0.0.2/Yooka-Laylee-AP.tracker.zip",
         "sha256": "4e35a291e9b9a4a1ccf5e07ee43dd9df53a002bc1e6b601acd74afa872e2bf1b",
