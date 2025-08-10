@@ -19,7 +19,7 @@ function transformation()
 end
 
 function kartos_slot()
-    return roulette_passage() and has("buddy_slam") and has("lizard_lash")    
+    return roulette_passage() and has("buddy_slam") and has("lizard_lash")
 end
 
 function slots()
@@ -88,16 +88,16 @@ function shooting_gallery()
     return has("slurp_shot") and ExpandedCashinoDestination()
 end
 
-function wager_laser() 
+function wager_laser()
     return entry_requirements() and ExpandedCashinoDestination()
-    and (has("camo_cloak") or has("sonar_splosion"))
+    and has("camo_cloak")
 end
 function safe_room() 
     return has("camo_cloak") and ExpandedCashinoDestination()
 end
 --Token Adding
-function token_adding() 
-    tokens = 0  
+function token_adding()
+    tokens = 0
     if entry_requirements() then
         tokens = tokens + 17
     end
@@ -116,7 +116,7 @@ function token_adding()
     if security_room() then
         tokens = tokens + 5
     end
-    if memory() then 
+    if memory() then
         tokens = tokens + 5
     end
     if flagpole() then
@@ -164,113 +164,112 @@ function token_pagie_1_logic()
     if tokens >= 10 then
         return true
     end
-    
 end
 function token_pagie_2_logic()
    token_adding()
-    if tokens >= 20 then 
+    if tokens >= 20 then
         return true
         end
 end
 function token_pagie_3_logic()
     token_adding()
-     if tokens >= 30 then 
+     if tokens >= 30 then
          return true
          end
 end
 function token_pagie_4_logic()
     token_adding()
-     if tokens >= 40 then 
+     if tokens >= 40 then
          return true
          end
 end
 function token_pagie_5_logic()
     token_adding()
-     if tokens >= 50 then 
+     if tokens >= 50 then
          return true
          end
 end
 function token_pagie_6_logic()
     token_adding()
-     if tokens >= 60 then 
+     if tokens >= 60 then
          return true
          end
 end
 function token_pagie_7_logic()
     token_adding()
-     if tokens >= 70 then 
+     if tokens >= 70 then
          return true
          end
 end
 function token_pagie_8_logic()
     token_adding()
-     if tokens >= 80 then 
+     if tokens >= 80 then
          return true
          end
 end
 function token_pagie_9_logic()
     token_adding()
-     if tokens >= 90 then 
+     if tokens >= 90 then
          return true
          end
 end
 function token_pagie_10_logic()
     token_adding()
-     if tokens >= 100 then 
+     if tokens >= 100 then
          return true
          end
 end
 function token_pagie_11_logic()
     token_adding()
-     if tokens >= 110 then 
+     if tokens >= 110 then
          return true
          end
 end
 function token_pagie_12_logic()
     token_adding()
-     if tokens >= 120 then 
+     if tokens >= 120 then
          return true
          end
 end
 function token_pagie_13_logic()
     token_adding()
-     if tokens >= 130 then 
+     if tokens >= 130 then
          return true
          end
 end
 function token_pagie_14_logic()
     token_adding()
-     if tokens >= 140 then 
+     if tokens >= 140 then
          return true
          end
 end
 function token_pagie_15_logic()
     token_adding()
-     if tokens >= 150 then 
+     if tokens >= 150 then
          return true
          end
 end
 function token_pagie_16_logic()
     token_adding()
-     if tokens >= 160 then 
+     if tokens >= 160 then
          return true
          end
 end
 function token_pagie_17_logic()
     token_adding()
-     if tokens >= 170 then 
+     if tokens >= 170 then
          return true
          end
 end
 function token_pagie_18_logic()
     token_adding()
-     if tokens >= 180 then 
+     if tokens >= 180 then
          return true
          end
 end
 function token_pagie_19_logic()
     token_adding()
-     if tokens >= 190 then 
+     if tokens >= 190 then
          return true
          end
 end

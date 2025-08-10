@@ -15,7 +15,7 @@ function damaging_ability()
     or has("buddy_slam")
     or has("sonar_splosion")
 end
--- SHipwreck Creek
+-- Shipwreck Creek
 function postTropics()
    return TropicsDestination() and (has("flappy_flight") or has("reptile_roll"))
 end
@@ -24,11 +24,29 @@ end
 -- Tropcis Logic
 function locate_knight()
     return (has("reptile_roll") or has("flappy_flight"))
-    and (has("glide") or has("flappy_flight") (has("slurp_shot") and expanded_tropics() ))
+    and (has("glide") or has("flappy_flight") or (has("slurp_shot") and expanded_tropics() ))
 end
 
 function tropics_energy()
    return has("flappy_flight") or ((has("glide") or has("lizard_leap")) and (has("sonar_splosion") or has("sonar_shot")))
+end
+
+function tropics_quills()
+    return has("reptile_roll")
+    and has("lizard_leap")
+    and has("glide")
+    and has("camo_cloak")
+    and has("buddy_bubble")
+    and has("buddy_slam")
+    and ExpandedTropicsDestination()
+end
+
+function tropics_ghosts()
+    return has("tail_twirl")
+    and has("sonar_shot")
+    and ExpandedTropicsDestination()
+    and has("slurp_shot")
+    and (has("flappy_flight") or has("reptile_roll"))
 end
 -- Glacier logic
 function glacier_entrance()
@@ -78,7 +96,7 @@ function icymetric_lower_access()
 end
 
 function icymetric_boss_access()
-    return (icymetric_lower_access() or icymetric_upper_access) and (has("buddy_slam") or has("slurp_shot"))
+    return (icymetric_lower_access() or icymetric_upper_access) and has("buddy_slam") and has("slurp_shot")
 end
 
 --Icymetric Palace Pagie Logic
@@ -91,7 +109,7 @@ function icymetric_brreeze_block()
 end
 
 function icymetric_pipes()
-    return icymetric_boss_access() and has("slurp_state") and (has("glide") or has("flappy_flight") or has("lizard_leap"))
+    return icymetric_boss_access() and has("slurp_shot") and (has("glide") or has("flappy_flight") or has("lizard_leap"))
 end
 
 function icymetric_dark_room()
@@ -133,7 +151,8 @@ end
 function icymetric_acid_path()
     return
     (has("glide") or has("flappy_flight") or has("lizard_leap"))
-    and (has("flappy_flight") or (has("slurp_shot") and has("slurp_state") and (has("glide") or sonar_shield()) and (icymetric_upper_access() or icymetric_lower_access())))
+    and (has("flappy_flight") or (has("slurp_shot")
+    and has("slurp_state") and (has("glide") or sonar_shield()) and (icymetric_upper_access() or icymetric_lower_access())))
 end
 
 function glacier_rextro_pagies()

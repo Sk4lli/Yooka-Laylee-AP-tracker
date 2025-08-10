@@ -53,11 +53,11 @@
             },
             {
                 "name": "Tokens 13",
-                "access_rules": ["$token_pagie_14_logic"]
+                "access_rules": ["$token_pagie_13_logic"]
             },
             {
                 "name": "Tokens 14",
-                "access_rules": ["$token_pagie_15_logic"]
+                "access_rules": ["$token_pagie_14_logic"]
             },
             {
                 "name": "Tokens 15",

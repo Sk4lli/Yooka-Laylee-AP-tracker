@@ -8,15 +8,11 @@
                 "sections": [
                     {
                         "name": "Tribalstack Ghost Writers Pagie",
-                        "access_rules": [
-                            "pagie:4, slurp_shot, sonar_shot, tail_twirl"
-                        ]
+                        "access_rules": ["$tropics_ghosts"]
                     },
                     {
                         "name": "Tribalstack Quills Pagie",
-                        "access_rules":[
-                            "reptile_roll, lizard_leap, glide, camo_cloak, pagie:4"
-                        ]
+                        "access_rules":["$tropics_quills"]
                     }
                 ],
                 "map_locations": [

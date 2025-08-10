@@ -99,9 +99,7 @@
                     },
                     {
                         "name": "Hivory Towers Hub B",
-                        "access_rules": [
-                            "buddy_slam"
-                        ],
+                        "access_rules": ["buddy_slam, reptile_roll"],
                         "children":[
                             {
                                 "name": "In the Pipes",

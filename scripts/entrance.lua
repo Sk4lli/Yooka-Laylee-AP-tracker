@@ -3,14 +3,8 @@ function hivory_towers_entry()
     return damaging_ability()
 end
 function tribalstack_tome_moves()
-    return (has("tail_twirl") and has("reptile_roll"))
-    or (has("tail_twirl") and has("flappy_flight"))
-    or reptile_rush()
-    or (has("buddy_slam") and has("reptile_roll"))
-    or (has("buddy_slam") and has("flappy_flight"))
-    or (has("sonar_splosion") and has("reptile_roll"))
-    or (has("sonar_splosion") and has("flappy_flight"))
-    or sonar_shield()
+    return damaging_ability()
+    and (has("reptile_roll") or has("flappy_flight"))
 end
  
 function tribalstack_entry()
@@ -18,7 +12,7 @@ function tribalstack_entry()
      entry_count = entry_count + Tracker:ProviderCountForCode("pagie")
      if entry_count >= 1 and tribalstack_tome_moves() then
          return true
-     else 
+     else
      return false
      end
 end
@@ -30,8 +24,9 @@ end
 
 -- Glacier Entrance Logic
 function glacier_moves()
-    return tribalstack_tome_moves() and has("buddy_slam") and
-    (has("glide") or has("flappy_flight"))
+    return tribalstack_tome_moves()
+    and has("buddy_slam")
+    and (has("glide") or has("flappy_flight"))
 end
 
 function glacier_entry()
@@ -87,7 +82,7 @@ function expanded_cashino()
 end
 -- Galleon Galaxy Entrance
 function galleon_moves()
-    return cashino_moves() and has("flappy_flight")
+    return marsh_moves() and has("flappy_flight")
 end
 
 function galleon_entry()
