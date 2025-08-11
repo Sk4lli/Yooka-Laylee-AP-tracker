@@ -1,6 +1,6 @@
 --Tribalstack Tome Entry logic:
 function hivory_towers_entry()
-    return damaging_ability()
+    return damaging_ability() or has("flappy_flight")
 end
 function tribalstack_tome_moves()
     return damaging_ability()
@@ -10,7 +10,7 @@ end
 function tribalstack_entry()
      entry_count = 0
      entry_count = entry_count + Tracker:ProviderCountForCode("pagie")
-     if entry_count >= 1 and tribalstack_tome_moves() then
+     if entry_count >= 1 and (tribalstack_tome_moves() or has("flappy_flight")) then
          return true
      else
      return false

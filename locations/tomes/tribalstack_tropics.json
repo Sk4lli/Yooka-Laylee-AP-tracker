@@ -172,7 +172,7 @@
                 "sections": [
                     {
                         "name": "Rescue Clara Lost in Tribalstack Pagie",
-                        "access_rules": []
+                        "access_rules": ["$damaging_ability","slurp_shot"]
                     }
                 ],
                 "map_locations": [
@@ -256,7 +256,7 @@
                 "sections": [
                     {
                         "name": "Tribalstack Roll Hoop Challenge Pagie",
-                        "access_rules": []
+                        "access_rules": ["reptile_roll"]
                     }
                 ],
                 "map_locations": [
